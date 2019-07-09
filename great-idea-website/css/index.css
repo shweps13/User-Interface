@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	/* box-sizing: border-box; */
+	border: 1px solid grey !important; 
+}
+/* html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	  box-sizing: inherit;
+} */
+
+header div.header1{
+	background-color: aquamarine;
+	padding-bottom: 2%;
+	display: block;
+}
+
+nav {
+	display: inline;
+	margin-left: 7%;
+  }
+  
+header nav a {
+	margin-left: 1px;
+	font-size: 15px;
+	color: grey;
+	display: inline;
+	padding-right: 5%;
+	/* background-color: yellow; */
+  	margin: 0 0 0 0;
+  }
+.logo {
+	display: inline;
+	margin-left: 15%;
+	padding-right: 0%;
+	padding-top: 1%;
+	background-color: yellow;
+	margin-top: 2%;
+}
+
+header div.main{
+	display: block;
+	background-color: aqua;
+	/* padding-bottom: 2%;
+	display: block; */
+}
+.circle {
+	display: inline-block;
+	/* padding-right: 0%; */
+	/* padding-top: 2%; */
+}
+div.main {
+	/* height:	30%;
+	width: 61%; */
+	display: block;
+	text-align: center;
+	/* padding: 5%; */
+	/* padding-left: 30%; */
+}
+
+.button {
+	display: inline-block;
+	width: 5%;
+	height: 5%;
+	background-color:red;
+}
+
+h2 {
+	font-size: 75px;
+}
+.main h2{
+	display: inline-block;
+	background-color: blue;
+	text-align: center;
+	/* height:	90%; */
+	/* width: 95%; */
+}
+body content.block1{
+	background-color: orange;
+	display: block;
+	padding-left: 5%;
+}
+body content.features{
+	color: red;
+	display: inline-block;
+	width: 44%;
+	margin: 2%;
+}
+body content.about{
+	color: blue;
+	display: inline-block;
+	width: 44%;
+	margin-left: 0.5%;
+}
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 86%;
+}
+content.block2{
+	background-color: purple;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5.2%;
+}
+content.services{
+	color: yellow;
+	display: inline-block;
+	width: 28%;
+	margin: 2% 2% 2% 2%;
+}
+content.product{
+	color: green;
+	display: inline-block;
+	width: 28%;
+	margin-right: 3%;
+	margin-left: 1%;
+}
+content.vision{
+	color: blue;
+	display: inline-block;
+	width: 28%;
+	}
+
+
+footer content{
+	padding-left: 7%;
+	padding-top: 2%;
+	display: block;
+	background-color: rgb(121, 119, 161);
+}
+footer content.copyright p {
+	display: block;
+	background-color: red;
+	margin-left: 45%;
+	margin-right: 40%;
+}
