@@ -85,6 +85,7 @@ header div.header1{
 nav {
 	display: inline;
 	margin-left: 7%;
+
   }
   
 header nav a {
@@ -93,8 +94,7 @@ header nav a {
 	color: grey;
 	display: inline;
 	padding-right: 5%;
-	/* background-color: yellow; */
-  	margin: 0 0 0 0;
+	text-decoration: none;
   }
 .logo {
 	display: inline;
@@ -106,22 +106,20 @@ header nav a {
 }
 
 header div.board {
-	background-color: tomato;
+	/* background-color: tomato; */
 	display: inline-block;
-	height: 50px;
-	width: 500px;
+	margin-left: 10%;
+	margin-bottom:5%;
+	width: 35%;
 }
 
 header div.main{
 	display: block;
-	background-color: aqua;
-	/* padding-bottom: 2%;
-	display: block; */
+	/* background-color: aqua; */
 }
 .circle {
 	display: inline-block;
-	/* padding-right: 0%; */
-	/* padding-top: 2%; */
+	padding: 3% 0% 0% 10%;
 }
 div.main {
 	/* height:	30%;
@@ -134,13 +132,16 @@ div.main {
 
 .button {
 	display: inline-block;
-	width: 30%;
-	height: 50%;
+	width: 50%;
+	height: 30%;
 	border: 1px solid black;
+	padding: 2%;
+	color: black;
+	text-decoration: none;
 }
 
 h2 {
-	font-size: 75px;
+	font-size: 80px;
 }
 .main h2{
 	display: block;
